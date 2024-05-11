@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 02</title>
+</head>
+<body>
+    <script>
+        var date = new Date()
+        var mon = date.getMonth()
+        var da = date.getDate()
+        mon = mon+1
+        var ye = date.getFullYear()
+        if (da < 10) {
+          da = "0"+da
+        } else {
+          da = da
+        }              
+        if (mon < 10) {
+          mon = "0"+mon
+        } else {
+          mon = mon
+        }
+        console.log(`${da}/${mon}/${ye}`);
+    </script>
+</body>
+</html>

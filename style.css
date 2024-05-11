@@ -1,0 +1,18 @@
+body{
+    background-color:rgb(37, 37, 37);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: bisque;
+    text-decoration: underline;
+}
+a{
+    font-size: 18px;
+    color: blueviolet;
+    text-decoration: none;
+}
+p{
+    color: bisque;
+    font-size: larger;
+}

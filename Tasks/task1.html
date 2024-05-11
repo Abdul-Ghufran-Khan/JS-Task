@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 01</title>
+</head>
+<body>
+    <script>
+        var now = new Date()
+        var today = now.getDay()
+        var hour = now.getHours()
+        var min = now.getMinutes()
+        var sec = now.getSeconds()
+        var day;
+        var arr = ["Sunday","Monday","Tueday","Wedday","Thursday","Friday","Saturday"]
+        console.log(`Today is : ${arr[today]}`);
+        if (hour > 12) {
+           var hours = hour-12 + "PM"
+        } else {
+          var hours = hour + "AM"
+        }
+         console.log(`${hours} : ${min} : ${sec}`);
+    </script>
+</body>
+</html>
